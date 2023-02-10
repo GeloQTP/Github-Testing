@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
-{
+{ // change one
     internal class Program
     {
         static void Main(string[] args)
