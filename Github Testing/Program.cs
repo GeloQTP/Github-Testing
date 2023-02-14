@@ -1,17 +1,11 @@
-﻿using System;
+﻿int score; 
 
-namespace MyApp 
+Console.WriteLine("Please Enter your First Number: ");
+score = Convert.ToInt32(Console.ReadLine());
 
-  // Note: actual namespace depends on the project name.
-{ // change one
-    // 2-14-23
+Console.WriteLine("Please Enter your First Number: ");
+score += Convert.ToInt32(Console.ReadLine());
 
-     class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Goodbye World");
-        }
-    }
-}
+Console.WriteLine("Please Enter your First Number: ");
+score += Convert.ToInt32(Console.ReadLine());
+
